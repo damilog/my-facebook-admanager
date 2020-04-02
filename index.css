@@ -1,19 +1,14 @@
-body{top-margin:0; 
-    bottom-margin:0; 
-    left-margin:0; 
-    right-margin:0}
-
-
-.s{
+body{
+    background-color:#f2f2f2;
+}
+.left{
     float: right;
-    width: 363px;
-    height: 27px;
     margin-top: 5px;
     margin-right:334px ;
     border-radius: 5px;   
 }
 .logo {
-    font-size: 10px;
+    font-size: 20px;
 }
 .title{
     background-color: #394959;
@@ -22,9 +17,18 @@ body{top-margin:0;
     padding: 0%;
     margin: 0%;
     color: aliceblue;
-
 }
-.btn1{
-    width: 5px;
-    height: 5px;
+.search{
+    width: 363px;
+    height: 22px;
+}
+.select{
+    padding: 20px;
+    background-color: #e6e6e6;
+    height: 50px;
+    width: 1500px
+}
+table{
+    height: 10px;
+    background-color: white;
 }

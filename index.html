@@ -3,18 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Facebook 광고 관리자</title>
     <link rel="stylesheet" href="index.css" />
 </head>
 <body>
     <div class ="title">
         <span class="logo">
-            <img src="img/logo.png"/> 광고 관리자 
+            <img src="img/logo.png"/> 광고 관리자
         </span>
         <span class="left">
             <input class="search" type="text" placeholder="비즈니스 검색"/>
-            <button type="button"class="btn1"><img src="img/search.png" alt="" onclick="alert('test')"></button>
+             <img src="img/search.png" alt="searchBtn" height="25px"width="25px"onclick="alert('test')">
         </span>
     </div>
+    <div class="select">
+        <form >
+            <select name="language"style="width:300px;height:30px;" >
+              <option value="none">계정 선택</option>
+              <option value="home">홈</option>
+              <option value="mac">맥도날드</option>
+              <option value="king">버거킹</option>
+              <option value=" moms">맘스터치</option>
+            </select>
+          </form>
+    </div>
+    <div>
+        <button id="makeAd">광고생성</button>
+        <input type="text" placeholder="캠페인 검색" width="30px"/>
+        <button>검색</button>
+    </div>
+    <table border="1px" bordercolor="blue"width="1510" height="500">
+        <tr>
+            <td>캠페인 이름</td>
+            <td>게재</td>
+            <td>예산</td>
+            <td>노출</td>
+            <td>결과당비용</td>
+            <td>지출금액</td>
+        </tr>
+        <tr>    
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+            <td>test</td>
+        </tr>
+    </table>
 </body>
 </html>
